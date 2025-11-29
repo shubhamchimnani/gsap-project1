@@ -43,37 +43,5 @@ It features smooth entrance animations, layered images, and a clean footer that 
    ```bash
    git clone https://github.com/your-repo/project.git
 
-##GSAP Animation Timeline Example
-var tl = gsap.timeline();
-
-tl.from(".nav h2, .nav p", {
-    y: -50,
-    opacity: 0,
-    duration: 1,
-    delay: 0.3,
-    stagger: 0.2,
-});
-
-tl.from("#main h1", {
-    x: -500,
-    opacity: 0,
-    duration: 1,
-    stagger: 0.4
-});
-
-tl.from("#main img", {
-    y: 100,
-    opacity: 0,
-    duration: 1,
-    stagger: 0.4,
-    rotate: 45
-});
-
-tl.from(".footer", {
-    y: 200,
-    opacity: 0,
-    duration: 1,
-    ease: "power3.out"
-});
 
 
