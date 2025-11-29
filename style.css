@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+}
+
+/* Make full-page layout */
+html, body {
+    height: 100%;
+    width: 100%;
+    background: black;
+    color: #fff;
+    overflow: hidden;
+}
+
+/* Enable sticky footer layout */
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Main content expands to fill space */
+#main {
+    flex: 1;
+}
+
+/* Navbar */
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 20px;
+    text-transform: uppercase;
+}
+
+.nav h2 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.nav-part2 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/* Main Headings */
+#main h1 {
+    font-size: 150px;
+    text-transform: uppercase;
+    font-weight: 300;
+    line-height: 120px;
+    width: 70%;
+    margin-left: 15%;
+    position: relative;
+    z-index: 99;
+}
+
+#main h1:nth-child(2) {
+    margin-top: 200px;
+}
+
+#main h1:nth-child(3),
+#main h1:nth-child(4) {
+    text-align: center;
+}
+
+/* Images */
+img {
+    height: 400px;
+    position: absolute;
+    top: 12%;
+    left: 40%;
+}
+
+#img2 {
+    rotate: 20deg;
+}
+
+#img3 {
+    rotate: 10deg;
+}
