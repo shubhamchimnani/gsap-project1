@@ -41,7 +41,7 @@ It features smooth entrance animations, layered images, and a clean footer that 
 
 1. Clone the project:
    ```bash
-   git clone https://github.com/your-repo/project.git
+   git clone https://github.com/shubhamchimnani/gsap-project1.git
 
 
 
